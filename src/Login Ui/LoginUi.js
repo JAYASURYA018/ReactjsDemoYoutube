@@ -19,11 +19,11 @@ function LoginUi() {
            <h1>Login Page</h1>
            <div>
              <img src={email} alt="email" className="email"/>
-             <input type="text" placeholder="user name" className="name"/>
+             <input type="text" placeholder="Enter the Email" className="name"/>
            </div>
            <div className="second-input">
              <img src={pass} alt="pass" className="email"/>
-             <input type="password" placeholder="user name" className="name"/>
+             <input type="password" placeholder="Password" className="name"/>
            </div>
           <div className="login-button">
           <button>Login</button>
